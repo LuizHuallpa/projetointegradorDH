@@ -1,0 +1,82 @@
+body {
+padding: 0 0 0 0;
+    border: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../exercicio-boteco/img/bg-body.png);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+header img {
+    border-radius: 50%
+}
+
+.menu {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    /* min-width: 180px; */
+}
+
+.menu a:hover {
+    background-color: beige;
+    color: #555;
+}
+
+.sectionbanner {
+    max-width: 100%;
+    margin: 10px;
+}
+
+.sectionbanner img {
+    align-self: center;
+    min-width: 100%;
+    min-height: auto;
+}
+
+.itensboteco {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.itenspai {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 10px;
+}
+
+.produto {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.nossahistoria {
+    margin: 10px;
+}
