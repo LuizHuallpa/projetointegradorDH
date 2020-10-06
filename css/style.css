@@ -127,3 +127,11 @@ header img {
         padding-right: 1.1rem;
     }
 }
+
+.comentarios {
+    align-self: center;
+    min-width: 100%;
+    min-height: auto;
+    max-width: 100%;
+    margin: 10px;
+}
