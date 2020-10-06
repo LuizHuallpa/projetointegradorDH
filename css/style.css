@@ -89,12 +89,14 @@ header img {
 }
 .nossahistoria h3 {
     margin-top: 30px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+    font-style: Bold;
+    font-family: "Nunito", sans-serif;
     text-transform: uppercase;
 }
 .nossahistoria p {
     margin-top: 30px;
+    font-family: nunito;
+    font-size: 18px;
 }
 
 .mapagoogle {
