@@ -9,6 +9,11 @@ body {
     box-sizing: border-box;
 }
 
+ @font-face {
+        font-family: Montserrat;
+        src: url(/fontes/Montserrat-Bold.ttf);
+ }
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -103,10 +108,31 @@ button h3{
     color: #191919;
 }
 
+.modal-title{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
 .list-group li{
     background-color: #FFD12F;
     border: none;
     padding: .30rem 1rem;
+}
+
+.list-group li img{
+    background-color: red;
+    width: auto;
+    padding: 0;
+}
+
+.list-group-item{
+    font-family: 'Montserrat';
+}
+
+.sub-caption{
+    color:blue;
+    font-size: 10px;
+
 }
 
 .badge-primary{
