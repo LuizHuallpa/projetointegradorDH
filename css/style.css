@@ -1,8 +1,9 @@
 body {
-    padding: 0 0 0 0;
-    border: 0 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(252, 211, 167);
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat';
+    color: #191919;
+    background-color: #FFD12F;
 }
 
 * {
@@ -12,7 +13,15 @@ body {
  @font-face {
         font-family: Montserrat;
         src: url(/fontes/Montserrat-Bold.ttf);
+
+        font-family: RobotoLight;
+        src: url(/fontes/RobotoCondensed-Light.ttf)
  }
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 
 header {
     display: flex;
@@ -46,8 +55,8 @@ header img {
 }
 
 .menu a:hover {
-    background-color: beige;
-    color: #555;
+    background-color: #FFF23E;
+    color: #191919;
 }
 
 .sectionbanner {
@@ -109,7 +118,6 @@ button h3{
 }
 
 .modal-title{
-    font-family: 'Montserrat';
     text-transform: uppercase;
 }
 
@@ -125,14 +133,9 @@ button h3{
     padding: 0;
 }
 
-.list-group-item{
-    font-family: 'Montserrat';
-}
-
 .sub-caption{
     color:blue;
     font-size: 10px;
-
 }
 
 .badge-primary{
@@ -141,12 +144,31 @@ button h3{
 }
 
 .nossahistoria {
-    margin: 10px;
-    background-color: #555;
+    /* margin: 10px; */
+    background-color: #191919;
+}
+
+.section_title span{
+    font-family: 'RobotoLight';
+    color: #FFAB3B;
+}
+
+.section_title h3{
+    color:#FFD12F;
+}
+
+.historia-bar{
+    font-family: 'RobotoLight';
+    color:white;
 }
 
 .mapagoogle {
     margin: 10px;
+}
+
+.contact-info p{
+    font-family: 'RobotoLight';
+    color:
 }
 
 .gallery {
