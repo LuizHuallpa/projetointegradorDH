@@ -76,9 +76,21 @@ header img {
     height: auto;
     position: relative;
 }
-
 .nossahistoria img {
+    border-radius: 8px;
+    display: flex;
+    opacity: 95%;
+}
+.nossahistoria .img_1 {
     margin-top: 80px;
+    width: 100%;
+}
+.nossahistoria .img_2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    right: -70px;
+    bottom: -60px; 
 }
 .nossahistoria span {
     margin-top: 30px;
