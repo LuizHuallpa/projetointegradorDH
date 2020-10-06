@@ -77,11 +77,30 @@ header img {
     position: relative;
 }
 
-.nossahistoria {
-    margin: 10px;
-    background-color: #555;
+.nossahistoria img {
+    margin-top: 80px;
+}
+.nossahistoria span {
+    margin-top: 30px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 3px 3px #AEB404;
+    font-size: 30px;
+    margin-bottom: 37px; 
+}
+.nossahistoria h3 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.nossahistoria p {
+    margin-top: 30px;
 }
 
 .mapagoogle {
     margin: 10px;
+}
+
+footer {
+    margin-top: 40px;
 }
