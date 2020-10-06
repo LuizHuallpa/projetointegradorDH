@@ -129,5 +129,9 @@ header img {
 }
 
 .comentarios {
+    align-self: center;
+    min-width: 100%;
+    min-height: auto;
+    max-width: 100%;
     margin: 10px;
 }
