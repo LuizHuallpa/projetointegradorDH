@@ -143,6 +143,38 @@ button h3{
 .nossahistoria {
     margin: 10px;
     background-color: #555;
+    margin-bottom: 80px;
+}
+.nossahistoria .section_title {
+    margin: 40px 0 40px;
+}
+.nossahistoria span {
+    font-family: Pacifico;
+    color: #ffab30;
+    text-shadow: 2px 1px  #333;
+    font-size: 24px;
+}
+.nossahistoria h3 {
+    font-family: Monserrat;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nossahistoria img {
+    border-radius: 8px;
+    display: flex;
+    opacity: 95%;
+}
+.nossahistoria .img_1 {
+    margin-top: 80px;
+    width: 100%;
+}
+.nossahistoria .img_2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    right: -70px;
+    bottom: -60px; 
 }
 
 .mapagoogle {
