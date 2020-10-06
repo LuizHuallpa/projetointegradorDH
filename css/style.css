@@ -63,6 +63,12 @@ header img {
     flex-wrap: wrap;
 }
 
+.menu-cardapio h2{
+    text-align: center;
+    font-size: 5em;
+    padding: 20px;
+}
+
 .itenspai {
     flex-wrap: wrap;
     display: flex;
@@ -71,10 +77,41 @@ header img {
     padding: 10px;
 }
 
+.itenspai button{
+    background-color: transparent;
+    border: none;
+}
+
 .produto {
     width: 100%;
     height: auto;
     position: relative;
+
+    border-radius: 50%;
+}
+
+button h3{
+    padding-top: 20px;
+}
+
+.modal-content{
+    background-color: #FFD12F;
+}
+
+.modal-header{
+    border: none;
+    color: #191919;
+}
+
+.list-group li{
+    background-color: #FFD12F;
+    border: none;
+    padding: .30rem 1rem;
+}
+
+.badge-primary{
+    background-color: #FFF23E;
+    color: #191919;
 }
 
 .nossahistoria {

@@ -49,59 +49,193 @@
         <div class="container">
             <div class="row justify-content-center ">
 
-                <div class="col-md-6">
+                <div class="col-md-12 menu-cardapio">
+                    <h2>Nosso Cardápio</h2>
+                </div>
+
+                <div class="col-md-3">
                     <div class="itenspai">
-                        <div class="imagemproduto">
-                            <img src="https://img.itdg.com.br/tdg/images/recipes/000/051/702/291408/291408_original.jpg?mode=crop&width=710&height=400" alt="" class="produto">
-                        </div>
-                        <div>
-                            <h2>Coxinha Tradicional</h2>
-                            <p>Deliciosa coxinha tradicional, feita artesanalmente bem recheada e sequinha! O nosso carro chefe! </p>
-                            <p>
-                                <h3>R$4,50</h3>
-                            </p>
+                        <button type="button" data-toggle="modal" data-target="#MenuSuspenso">
+                            <img src="img/ex_img.jpg" alt="" class="produto">
+                            <h3>Lanches</h3>
+                        </button>
+
+                        <!-- menu suspenso -->
+                        <div class="modal fade" id="MenuSuspenso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Lanches</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Menu ----------- Lado esquerdo: Nome do prato ----------- Lado direito: Valores -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <img src="" alt="">
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Pão francês<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Contra-filé<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Filé de Frango<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Hamburguer<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Salame<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Provolone<span class="badge badge-primary badge-pill">R$ 50,00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+
+                <div class="col-md-3">
                     <div class="itenspai">
-                        <div class="imagemproduto">
-                            <img src="https://img.itdg.com.br/tdg/images/recipes/000/051/702/291408/291408_original.jpg?mode=crop&width=710&height=400" alt="" class="produto">
-                        </div>
-                        <div>
-                            <h2>Coxinha Tradicional</h2>
-                            <p>Deliciosa coxinha tradicional, feita artesanalmente bem recheada e sequinha! O nosso carro chefe! </p>
-                            <p>
-                                <h3>R$4,50</h3>
-                            </p>
+                        <button type="button" data-toggle="modal" data-target="#MenuSuspenso2">
+                            <img src="img/ex_img.jpg" alt="" class="produto">
+                            <h3>Porções</h3>
+                        </button>
+
+                        <!-- menu suspenso -->
+                        <div class="modal fade" id="MenuSuspenso2" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title1" id="exampleModalLabel1">Porções</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Menu ----------- Lado esquerdo: Nome do prato ----------- Lado direito: Valores -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Bolinho de Bacalhau<span class="badge badge-primary badge-pill">R$ 32,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Bolinho de Mandioca<span class="badge badge-primary badge-pill">R$ 28,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Fritas com Queijo&Bacon<span class="badge badge-primary badge-pill">R$ 26,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Fritas<span class="badge badge-primary badge-pill">R$ 20,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Mandioca<span class="badge badge-primary badge-pill">R$ 22,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Polenta<span class="badge badge-primary badge-pill">R$ 22,00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+
+                <div class="col-md-3">
                     <div class="itenspai">
-                        <div class="imagemproduto">
-                            <img src="https://img.itdg.com.br/tdg/images/recipes/000/051/702/291408/291408_original.jpg?mode=crop&width=710&height=400" alt="" class="produto">
-                        </div>
-                        <div>
-                            <h2>Coxinha Tradicional</h2>
-                            <p>Deliciosa coxinha tradicional, feita artesanalmente bem recheada e sequinha! O nosso carro chefe! </p>
-                            <p>
-                                <h3>R$4,50</h3>
-                            </p>
+                        <button type="button" data-toggle="modal" data-target="#MenuSuspenso3">
+                            <img src="img/ex_img.jpg" alt="" class="produto">
+                            <h3>Bebidas</h3>
+                        </button>
+
+                        <!-- menu suspenso -->
+                        <div class="modal fade" id="MenuSuspenso3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Bebidas</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Menu ----------- Lado esquerdo: Nome do prato ----------- Lado direito: Valores -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Sucos Naturais (Consultar sabores disponíveis)<span class="badge badge-primary badge-pill">R$ 7,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Refrigerante 600ml<span class="badge badge-primary badge-pill">R$ 8,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Refrigerante 350ml<span class="badge badge-primary badge-pill">R$ 5,50</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            H2O (Sabores)<span class="badge badge-primary badge-pill">R$ 6,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Schweppes<span class="badge badge-primary badge-pill">R$ 6,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Água (com ou sem gás)<span class="badge badge-primary badge-pill">R$ 3,00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+
+                <div class="col-md-3">
                     <div class="itenspai">
-                        <div class="imagemproduto">
-                            <img src="https://img.itdg.com.br/tdg/images/recipes/000/051/702/291408/291408_original.jpg?mode=crop&width=710&height=400" alt="" class="produto">
-                        </div>
-                        <div>
-                            <h2>Coxinha Tradicional</h2>
-                            <p>Deliciosa coxinha tradicional, feita artesanalmente bem recheada e sequinha! O nosso carro chefe! </p>
-                            <p>
-                                <h3>R$4,50</h3>
-                            </p>
+                        <button type="button" data-toggle="modal" data-target="#MenuSuspenso4">
+                            <img src="img/ex_img.jpg" alt="" class="produto">
+                            <h3>Cervejas Artesanais</h3>
+                        </button>
+
+                        <!-- menu suspenso -->
+                        <div class="modal fade" id="MenuSuspenso4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Cervejas Artesanais</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Menu ----------- Lado esquerdo: Nome do prato ----------- Lado direito: Valores -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 1<span class="badge badge-primary badge-pill">R$ 3,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 2<span class="badge badge-primary badge-pill">R$ 12,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 3<span class="badge badge-primary badge-pill">R$ 10,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 4<span class="badge badge-primary badge-pill">R$ 8,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 5<span class="badge badge-primary badge-pill">R$ 7,00</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Cerveja Artesanal 6<span class="badge badge-primary badge-pill">R$ 12,00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
