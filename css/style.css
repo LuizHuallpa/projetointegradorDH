@@ -108,6 +108,12 @@ header img {
     border: none;
 }
 
+
+/* .itenspai img {
+    min-width: 500px;
+    min-height: 250px;
+} */
+
 .produto {
     width: 100%;
     height: auto;
@@ -234,4 +240,16 @@ button h3 {
     min-height: auto;
     max-width: 100%;
     margin: 10px;
+}
+
+.modal-body {
+    min-width: 100%;
+}
+
+.modal-body img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: auto;
+    min-width: 100%;
 }
