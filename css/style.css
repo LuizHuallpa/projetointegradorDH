@@ -1,12 +1,25 @@
 body {
-    padding: 0 0 0 0;
-    border: 0 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(252, 211, 167);
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat';
+    color: #191919;
+    background-color: #FFD12F;
 }
 
 * {
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fontes/Montserrat-Bold.ttf);
+    font-family: RobotoLight;
+    src: url(/fontes/RobotoCondensed-Light.ttf)
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -41,26 +54,44 @@ header img {
 }
 
 .menu a:hover {
-    background-color: beige;
-    color: #555;
+    background-color: #FFF23E;
+    color: #191919;
 }
 
-.sectionbanner {
+.carouselintro {
+    min-width: 100%;
+}
+
+.carouselintro img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: auto;
+    min-width: 100%;
+}
+
+
+/* .sectionbanner {
     max-width: 100%;
-    margin: 10px;
 }
 
 .sectionbanner img {
     align-self: center;
     min-width: 100%;
     min-height: auto;
-}
+} */
 
 .itensboteco {
     padding: 10px;
     margin: 10px;
     position: relative;
     flex-wrap: wrap;
+}
+
+.menu-cardapio h2 {
+    text-align: center;
+    font-size: 5em;
+    padding: 20px;
 }
 
 .itenspai {
@@ -71,19 +102,87 @@ header img {
     padding: 10px;
 }
 
+.itenspai button {
+    background-color: transparent;
+    border: none;
+}
+
 .produto {
     width: 100%;
     height: auto;
     position: relative;
+    border-radius: 50%;
+}
+
+button h3 {
+    padding-top: 20px;
+}
+
+.modal-content {
+    background-color: #FFD12F;
+}
+
+.modal-header {
+    border: none;
+    color: #191919;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+
+.list-group li {
+    background-color: #FFD12F;
+    border: none;
+    padding: .30rem 1rem;
+}
+
+.list-group li img {
+    background-color: red;
+    width: auto;
+    padding: 0;
+}
+
+.sub-caption {
+    color: blue;
+    font-size: 10px;
+}
+
+.badge-primary {
+    background-color: #FFF23E;
+    color: #191919;
 }
 
 .nossahistoria {
-    margin: 10px;
-    background-color: #555;
+    margin-bottom: 20px;
+    background-color: #191919;
+}
+
+.section_title span {
+    font-family: 'RobotoLight';
+    color: #FFAB3B;
+}
+
+.section_title h3 {
+    color: #FFD12F;
+}
+
+.historia-bar {
+    font-family: 'RobotoLight';
+    color: white;
 }
 
 .mapagoogle {
-    margin: 10px;
+    margin: 20px;
+}
+
+.contact-info p {
+    font-family: 'RobotoLight';
+    color: black;
+}
+
+.sobre_info {
+    color: white;
 }
 
 .gallery {
