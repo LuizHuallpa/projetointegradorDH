@@ -33,7 +33,6 @@ header {
     justify-content: space-between;
     padding: 10px;
     background-color: black;
-    z-index: 99;
 }
 
 @media (min-width: 800px) {
@@ -42,6 +41,11 @@ header {
         top: 0;
         z-index: 99;
         max-height: 20vh;
+        min-height: 20vh;
+    }
+    header img {
+        max-height: 22vh;
+        min-height: 22vh;
     }
 }
 
@@ -59,7 +63,6 @@ header img {
 .menu {
     padding: 10px;
     margin: 10px;
-    position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -71,7 +74,6 @@ header img {
     color: white;
     padding: 20px;
     font-weight: bold;
-    min-width: 150px;
 }
 
 .menu a:hover {
