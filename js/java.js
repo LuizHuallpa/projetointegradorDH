@@ -1,31 +1,75 @@
+let form = selectId('contactForm');
+let menssagem = selectId('message');
+let nome = selectId('name');
+let email = selectId('email');
+let assunto = selectId('subject');
+let errorList = document.querySelector('#error-list ul');
+let errorListdiv = selectId('error-list')
+
+
 function selectId(id) {
     return document.getElementById(id);
 
 }
 
-let menssagem = selectId('message');
-let nome = selectId('name');
-let email = selectId('email');
-let assunto = selectId('subject');
+function empty(input){
+    return input.value.trim() === "";
+}
 
-menssagem.addEventListener("submit", function(e) {
-    e.preventDefault();
-    if (menssagem.value === "") {
-        alert('Campo não preenchido')
+function errorMessage(message){
+    errorList.innerHTML += "<li>" + message + "</li>";
+}
+
+
+
+
+form.addEventListener("submit", function(e){
+
+    errorList.innerHTML = '';
+    
+
+    if (empty(nome)) {
+        errorMessage("Campo <strong>Nome</strong> não preenchido");
     }
-})
+    if (empty(menssagem)) {
+        errorMessage("Campo <strong>menssagem</strong> não preenchido");
+    }
+
+    if (empty(email)) {
+        errorMessage("Campo <strong>email</strong> não preenchido");
+    }
+
+    if (empty(assunto)) {
+        errorMessage("Campo <strong>assunto</strong> não preenchido");
+    }
+
+console.log(errorList.querySelector('li').length)
+
+    if (errorList.querySelectorAll('li').length > 0){
+        e.preventDefault();
+        errorListdiv.hidden = '';
+        
+    }
+
+
+});
 
 
 
-$(function() {
-    var selectedClass = "";
-    $(".filter").click(function(){
-    selectedClass = $(this).attr("data-rel");
-    $("#gallery").fadeTo(100, 0.1);
-    $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-    setTimeout(function() {
-    $("."+selectedClass).fadeIn().addClass('animation');
-    $("#gallery").fadeTo(300, 1);
-    }, 300);
-    });
-    });
+
+
+
+
+
+// $(function() {
+//     var selectedClass = "";
+//     $(".filter").click(function(){
+//     selectedClass = $(this).attr("data-rel");
+//     $("#gallery").fadeTo(100, 0.1);
+//     $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+//     setTimeout(function() {
+//     $("."+selectedClass).fadeIn().addClass('animation');
+//     $("#gallery").fadeTo(300, 1);
+//     }, 300);
+//     });
+//     });

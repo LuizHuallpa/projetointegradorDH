@@ -414,12 +414,12 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Coloque aqui a sua menssagem'" placeholder=" Enter Message"></textarea>
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Coloque aqui a sua menssagem'" placeholder=" Coloque aqui a sua menssagem"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Coloque seu nome'" placeholder="Enter your name">
+                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Coloque seu nome'" placeholder="Coloque seu nome">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -429,14 +429,28 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'EntAssuer Subject'" placeholder="Enter Subject">
+                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Assunto'" placeholder="Assunto">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="button" class="btn btn-outline-dark">Enviar</button>
+                                <button type="submit" class="btn btn-outline-dark">Enviar</button>
                             </div>
                         </form>
+
+                        <!--Aviso erros -->
+
+                        <div id="error-list" class="alert alert-danger alert dismissible fade show" role="alert" hidden>
+                            <ul>
+                            </ul>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                                <span aria-hidden="true">&times;</span>
+                            
+                            </button>
+
+                        </div>
+
+                        <!--Aviso erros final -->
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
