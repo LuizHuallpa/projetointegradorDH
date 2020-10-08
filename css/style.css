@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     background-color: black;
+    min-width: 100%;
 }
 
 @media (min-width: 800px) {
@@ -72,8 +73,8 @@ header img {
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 20px;
     font-weight: bold;
+    padding: 20px;
 }
 
 .menu a:hover {
