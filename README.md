@@ -1,6 +1,6 @@
 # (PI) - Integrator Project
 
-Esse é o (PI) - **Projeto Integrador**  realizado durante o curso Front End Coding Facebook - Turma 5. 
+This is the (PI) - **Integrator Project** carried out during the Front End Coding Facebook course - Class 5.
 
 
 O PI consiste no desenvolvimento do Front End de um website usando os conhecimentos aprendidos de **HTML**, **CSS** e **JavaScript**.
