@@ -18,3 +18,6 @@ Os integrantes do Grupo 6 são:
 
 [<img src="https://avatars0.githubusercontent.com/u/69767807?s=460&u=06f9861f5818229fbba323017a01d93211a7b079&v=4" width="75px;"/>](https://github.com/LuizHuallpa) [Luiz Felipe](https://github.com/LuizHuallpa)
 
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://tradicionalbardacoxinha.netlify.app/)
