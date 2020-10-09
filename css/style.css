@@ -26,27 +26,27 @@ body {
     padding: 0;
 }
 
-header {
+.header-area {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-around; */
     padding: 10px;
     background-color: black;
     min-width: 100%;
 }
 
 @media (min-width: 800px) {
-    header {
+    .header-area {
         position: sticky;
         top: 0;
         z-index: 99;
-        max-height: 20vh;
-        min-height: 20vh;
+        max-height: 15vh;
+        /* min-height: 15vh; */
     }
-    header img {
-        max-height: 22vh;
-        min-height: 22vh;
+    .header-area {
+        max-height: 17vh;
+        /* min-height: 17vh; */
     }
 }
 
