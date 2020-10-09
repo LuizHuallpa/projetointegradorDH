@@ -1,4 +1,4 @@
-# (PI) - Projeto Integrador 
+# (PI) - Integrator Project
 
 Esse é o (PI) - **Projeto Integrador**  realizado durante o curso Front End Coding Facebook - Turma 5. 
 
