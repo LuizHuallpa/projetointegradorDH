@@ -6,7 +6,7 @@ This is the (PI) - **Integrator Project** carried out during the Front End Codin
 O PI consiste no desenvolvimento do Front End de um website usando os conhecimentos aprendidos de **HTML**, **CSS** e **JavaScript**.
 
 
-Os integrantes do Grupo 6 são:
+Group 6 members are:
 
 [<img src="https://avatars1.githubusercontent.com/u/57645440?s=460&u=24f17c4efd8815bf2bc48ad4814932514eee85e7&v=4" width="75px;"/>](https://github.com/andrehc) [Andre Costa](https://github.com/andrehc)
 
