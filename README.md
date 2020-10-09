@@ -10,7 +10,7 @@ Os integrantes do Grupo 6 são:
 
 [<img src="https://avatars1.githubusercontent.com/u/57645440?s=460&u=24f17c4efd8815bf2bc48ad4814932514eee85e7&v=4" width="75px;"/>](https://github.com/andrehc) [Andre Costa](https://github.com/andrehc)
 
-[<img src="https://avatars0.githubusercontent.com/u/29641380?s=460&v=4" width="75px;"/>](https://github.com/felipealvessi) [Daniel Franchi](https://github.com/felipealvessi)
+[<img src="https://avatars0.githubusercontent.com/u/29641380?s=460&v=4" width="75px;"/>](https://github.com/danielmf9) [Daniel Franchi](https://github.com/danielmf9)
 
 [<img src="https://avatars2.githubusercontent.com/u/48339491?s=460&u=4cc5af4e6238661d9b654c12a50d1d4e403d0da4&v=4" width="75px;"/>](https://github.com/felipealvessi) [Felipe Alves](https://github.com/felipealvessi)
   
