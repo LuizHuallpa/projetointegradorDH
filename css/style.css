@@ -18,7 +18,8 @@ body {
     font-family: Montserrat;
     src: url(/fontes/Montserrat-Bold.ttf);
     font-family: RobotoLight;
-    src: url(/fontes/RobotoCondensed-Light.ttf)
+    src: url(/fontes/RobotoCondensed-Light.ttf);
+    font-family: 'Source Serif Pro', serif;
 }
 
 .container-fluid {
@@ -32,7 +33,7 @@ body {
     flex-direction: row;
     /* justify-content: space-around; */
     padding: 10px;
-    background-color: black;
+    background-color: #191919;
     min-width: 100%;
 }
 
@@ -43,8 +44,8 @@ body {
         z-index: 99;
     }
     .header-area {
-        max-height: 17vh;
-        /* min-height: 17vh; */
+        /* overflow: auto; */
+        max-height: 10vh;
     }
 }
 
@@ -52,35 +53,62 @@ header img {
     border-radius: 50%
 }
 
-.menu {
+.menunav {
     padding: 10px;
-    margin: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-width: 100%;
     display: inline;
 }
 
-.menu ul {
+.menunav ul {
     display: inline;
 }
 
-.menu a {
+
+/* .menu a {
     display: block;
     text-decoration: none;
     text-align: center;
     color: white;
     font-weight: bold;
-    padding: 20px;
-}
+} */
 
-.menu a:hover {
+
+/* .menu a:hover {
     background-color: #FFF23E;
     color: #191919;
+} */
+
+.menunav a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    position: relative;
+    display: inline-block;
+    font-family: RobotoLight;
+}
+
+.menunav a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menunav a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .carouselintro {
     min-width: 100%;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .carouselintro img {
@@ -104,8 +132,8 @@ header img {
 } */
 
 .itensboteco {
-    padding: 10px;
-    margin: 10px;
+    /* padding: 10px;
+    margin: 10px; */
     position: relative;
     flex-wrap: wrap;
 }
@@ -278,3 +306,32 @@ button h3 {
 .logoimg img {
     width: 10vh;
 }
+
+
+/* Começo css menu grande */
+
+.menuindex {
+    background-color: #191919;
+    color: #FFD12F;
+    min-width: 100%;
+    padding: 20px;
+}
+
+.single_delicious {
+    margin: 10px;
+}
+
+.menuindex h3 {
+    color: #FFAB3B;
+}
+
+.menuindex img {
+    max-width: 15vw;
+    max-height: auto;
+    margin: 10px;
+    border-radius: 50%;
+    border-color: #FFAB3B;
+}
+
+
+/* Começo css menu grande */
