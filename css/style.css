@@ -6,7 +6,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Montserrat';
-    color: #191919;
+    color: black;
     background-color: #FFD12F;
 }
 
@@ -273,4 +273,8 @@ button h3 {
     background-position: center;
     max-height: auto;
     min-width: 100%;
+}
+
+.logoimg img {
+    width: 10vh;
 }
