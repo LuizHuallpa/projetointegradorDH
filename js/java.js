@@ -55,6 +55,7 @@ console.log(errorList.querySelector('li').length)
 });
 
 
+
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -65,18 +66,34 @@ function myFunction() {
   }
 
 
+  let containerTempo = document.querySelector("#previsaodotempo");
 
 
+  async function getTempo() {
+    let resposta = await fetch("https://api.hgbrasil.com/weather?format=json-cors&key=b3245de1&city_name=Campinas,SP");
+    let tempoLista = await resposta.json();
 
-// $(function() {
-//     var selectedClass = "";
-//     $(".filter").click(function(){
-//     selectedClass = $(this).attr("data-rel");
-//     $("#gallery").fadeTo(100, 0.1);
-//     $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-//     setTimeout(function() {
-//     $("."+selectedClass).fadeIn().addClass('animation');
-//     $("#gallery").fadeTo(300, 1);
-//     }, 300);
-//     });
-//     });
+let tempo = tempoLista.results;
+console.log(tempo)
+
+if(tempo.description = "Ensolarado")
+{
+    let divTempo = `
+    <p>Hoje o dia está ${tempo.description}. Ótimo pra tomar uma bem gelada!</p>
+    `
+;
+
+    containerTempo.innerHTML = divTempo;
+}else{
+    let divTempo = `
+    <p>Hoje o dia está ${tempo.description}. Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
+
+    `
+;
+
+    containerTempo.innerHTML = divTempo;
+
+}
+  }
+
+  getTempo()
