@@ -401,10 +401,22 @@ button h3 {
 
 /* Final Nav Hamburger*/
 
-
 .footer-copy {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2vh;
 }
+
+
+/* Comeco seção do tempo*/
+
+.bannertempo {
+    background-color: #191919;
+    color: #FFAB3B;
+    font-family: 'RobotoLight';
+    text-align: center;
+}
+
+
+/* Fim seção do tempo*/
