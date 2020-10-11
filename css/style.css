@@ -232,11 +232,6 @@ button h3 {
     margin: 10px;
 }
 
-.contact-info p {
-    font-family: 'RobotoLight';
-    color: black;
-}
-
 .sobre_info {
     color: white;
 }
@@ -418,7 +413,6 @@ button h3 {
     text-align: center;
 }
 
-
 .bemvindo {
     display: flex;
     align-items: center;
@@ -427,4 +421,21 @@ button h3 {
     margin: 5px;
 }
 
+
 /* Fim seção do tempo*/
+
+
+/* Comeco seção do footer/contato*/
+
+footer {
+    min-width: 100vh!important;
+    background-color: #191919;
+    color: white;
+    padding: 20px;
+}
+
+
+/* .contact-info p {
+    font-family: 'RobotoLight';
+    color: black;
+} */
