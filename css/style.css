@@ -419,4 +419,12 @@ button h3 {
 }
 
 
+.bemvindo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    margin: 5px;
+}
+
 /* Fim seção do tempo*/
