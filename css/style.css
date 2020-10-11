@@ -400,3 +400,11 @@ button h3 {
 
 
 /* Final Nav Hamburger*/
+
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
