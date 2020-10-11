@@ -12,21 +12,21 @@ function selectId(id) {
 
 }
 
-function empty(input){
+function empty(input) {
     return input.value.trim() === "";
 }
 
-function errorMessage(message){
+function errorMessage(message) {
     errorList.innerHTML += "<li>" + message + "</li>";
 }
 
 
 
 
-form.addEventListener("submit", function(e){
+form.addEventListener("submit", function (e) {
 
     errorList.innerHTML = '';
-    
+
 
     if (empty(nome)) {
         errorMessage("Campo <strong>Nome</strong> não preenchido");
@@ -43,12 +43,12 @@ form.addEventListener("submit", function(e){
         errorMessage("Campo <strong>assunto</strong> não preenchido");
     }
 
-console.log(errorList.querySelector('li').length)
+    console.log(errorList.querySelector('li').length)
 
-    if (errorList.querySelectorAll('li').length > 0){
+    if (errorList.querySelectorAll('li').length > 0) {
         e.preventDefault();
         errorListdiv.hidden = '';
-        
+
     }
 
 
@@ -59,41 +59,42 @@ console.log(errorList.querySelector('li').length)
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
-      x.style.display = "none";
+        x.style.display = "none";
     } else {
-      x.style.display = "block";
+        x.style.display = "block";
     }
-  }
+}
 
 
-  let containerTempo = document.querySelector("#previsaodotempo");
+let containerTempo = document.querySelector("#previsaodotempo");
 
 
-  async function getTempo() {
+async function getTempo() {
     let resposta = await fetch("https://api.hgbrasil.com/weather?format=json-cors&key=b3245de1&city_name=Campinas,SP");
     let tempoLista = await resposta.json();
 
-let tempo = tempoLista.results;
-console.log(tempo)
+    let tempo = tempoLista.results;
+    console.log(tempo)
 
-if(tempo.description = "Ensolarado")
-{
-    let divTempo = `
-    <p>Hoje o dia está ${tempo.description}. Ótimo pra tomar uma bem gelada!</p>
+    if (tempo.description = "Ensolarado") {
+        let divTempo = `
+    <p>Hoje o dia está ${tempo.description}.</p>
+    <p> Ótimo pra tomar uma bem gelada!</p>
     `
-;
+            ;
 
-    containerTempo.innerHTML = divTempo;
-}else{
-    let divTempo = `
-    <p>Hoje o dia está ${tempo.description}. Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
+        containerTempo.innerHTML = divTempo;
+    } else {
+        let divTempo = `
+    <p>Hoje o dia está ${tempo.description}.</p>
+    <p> Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
 
     `
-;
+            ;
 
-    containerTempo.innerHTML = divTempo;
+        containerTempo.innerHTML = divTempo;
 
+    }
 }
-  }
 
-  getTempo()
+getTempo()
