@@ -5,6 +5,19 @@ let email = selectId('email');
 let assunto = selectId('subject');
 let errorList = document.querySelector('#error-list ul');
 let errorListdiv = selectId('error-list')
+let containerTempo = document.querySelector("#previsaodotempo");
+
+
+
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 
 function selectId(id) {
@@ -56,17 +69,8 @@ form.addEventListener("submit", function (e) {
 
 
 
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
 
 
-let containerTempo = document.querySelector("#previsaodotempo");
 
 
 async function getTempo() {
@@ -78,7 +82,9 @@ async function getTempo() {
 
     if (tempo.description = "Ensolarado") {
         let divTempo = `
-    <p>Hoje o dia está ${tempo.description}.</p>
+        
+    <p>Hoje o dia está <strong>${tempo.description}</strong>!</p>
+    <img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
     <p> Ótimo pra tomar uma bem gelada!</p>
     `
             ;
@@ -86,7 +92,8 @@ async function getTempo() {
         containerTempo.innerHTML = divTempo;
     } else {
         let divTempo = `
-    <p>Hoje o dia está ${tempo.description}.</p>
+    <p>Hoje o dia está <strong>${tempo.description}</strong>.</p>
+    <img src="<img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
     <p> Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
 
     `
