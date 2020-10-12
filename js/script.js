@@ -80,7 +80,8 @@ async function getTempo() {
     if (tempo.description = "Ensolarado") {
         let divTempo = `
         
-    <p>Hoje o dia está ${tempo.description}.</p>
+    <p>Hoje o dia está <strong>${tempo.description}</strong>!</p>
+    <img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
     <p> Ótimo pra tomar uma bem gelada!</p>
     `
             ;
@@ -88,7 +89,8 @@ async function getTempo() {
         containerTempo.innerHTML = divTempo;
     } else {
         let divTempo = `
-    <p>Hoje o dia está ${tempo.description}.</p>
+    <p>Hoje o dia está <strong>${tempo.description}</strong>.</p>
+    <img src="<img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
     <p> Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
 
     `
