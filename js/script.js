@@ -5,6 +5,7 @@ let email = selectId('email');
 let assunto = selectId('subject');
 let errorList = document.querySelector('#error-list ul');
 let errorListdiv = selectId('error-list')
+let containerTempo = document.querySelector("#previsaodotempo");
 
 
 function selectId(id) {
@@ -66,7 +67,7 @@ function myFunction() {
 }
 
 
-let containerTempo = document.querySelector("#previsaodotempo");
+
 
 
 async function getTempo() {
@@ -78,6 +79,7 @@ async function getTempo() {
 
     if (tempo.description = "Ensolarado") {
         let divTempo = `
+        
     <p>Hoje o dia está ${tempo.description}.</p>
     <p> Ótimo pra tomar uma bem gelada!</p>
     `
