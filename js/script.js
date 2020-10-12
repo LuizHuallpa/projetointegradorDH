@@ -8,6 +8,18 @@ let errorListdiv = selectId('error-list')
 let containerTempo = document.querySelector("#previsaodotempo");
 
 
+
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+
 function selectId(id) {
     return document.getElementById(id);
 
@@ -56,15 +68,6 @@ form.addEventListener("submit", function (e) {
 });
 
 
-
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
 
 
 

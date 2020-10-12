@@ -27,6 +27,12 @@
         padding: 0;
     }
     
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+    
     .header-area {
         display: flex;
         flex-wrap: wrap;
@@ -38,11 +44,6 @@
     }
     
     @media (min-width: 800px) {
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 99;
-        }
         .header-area {
             /* overflow: auto; */
             max-height: 10vh;
@@ -324,6 +325,11 @@
         background-color: #333;
         position: relative;
         display: none;
+        z-index: 10000;
+    }
+    
+    .topnav img {
+        max-height: 5vh;
     }
     
     @media (max-width:900px) {
@@ -342,7 +348,6 @@
     /* Estilo */
     
     .topnav a {
-        display: flex;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -355,7 +360,7 @@
     /* Estilizando o burger menu*/
     
     .topnav a.icon {
-        background: black;
+        background: #191919;
         display: block;
         position: absolute;
         right: 0;
@@ -363,8 +368,8 @@
     }
     
     .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+        background-color: #FFAB3B;
+        color: #333;
     }
     
     .Ativo {
