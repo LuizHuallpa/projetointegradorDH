@@ -7,7 +7,8 @@
         border: 0;
         font-family: 'Montserrat';
         color: black;
-        background-color: #FFD12F;
+        background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+        /* background-color: #FFD12F; */
     }
     
     * {
@@ -146,6 +147,9 @@
         position: relative;
         padding: 10px;
     }
+    /* .itenspai img {
+        border: 2px solid;
+    } */
     
     .itenspai button {
         background-color: transparent;
