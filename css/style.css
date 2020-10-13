@@ -240,6 +240,7 @@
         -webkit-column-width: 33%;
         -moz-column-width: 33%;
         column-width: 33%;
+        padding: 3vh 0 3vh 0;
     }
     
     .galeria {
