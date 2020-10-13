@@ -80,28 +80,30 @@ async function getTempo() {
     let tempo = tempoLista.results;
     console.log(tempo)
 
-    if (tempo.description = "Ensolarado") {
+    if (tempo.temp >= 20) {
         let divTempo = `
         
-    <p>Hoje o dia está <strong>${tempo.description}</strong>!</p>
+    <p>Neste momento está <strong>${tempo.temp} graus</strong>!</p>
     <img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
     <p> Ótimo pra tomar uma bem gelada!</p>
     `
-            ;
+    containerTempo.innerHTML = divTempo;
 
-        containerTempo.innerHTML = divTempo;
+        
     } else {
         let divTempo = `
-    <p>Hoje o dia está <strong>${tempo.description}</strong>.</p>
-    <img src="<img src="https://media.giphy.com/media/IeXeDDIxGrprESmSBT/giphy.gif">
+    <p>Neste momento está <strong>${tempo.temp} graus</strong>!</p>
+    <img src="https://media.giphy.com/media/gFJiaIGgA5T8guT2KA/giphy.gif">
     <p> Que tal pegar uma coxinha ou uma porção bem quentinha?</p>
 
     `
-            ;
+    containerTempo.innerHTML = divTempo;
 
-        containerTempo.innerHTML = divTempo;
+        
 
     }
+
+    
 }
 
 getTempo()

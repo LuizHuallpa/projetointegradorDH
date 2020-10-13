@@ -329,7 +329,7 @@
     }
     
     .topnav img {
-        max-height: 5vh;
+        max-height: 4vh;
     }
     
     @media (max-width:900px) {
@@ -375,6 +375,7 @@
     .Ativo {
         background-color: black;
         color: white;
+        padding: 0;
     }
     /* Final Nav Hamburger*/
     
@@ -410,7 +411,7 @@
         margin: 5px;
         color: #FFAB3B;
         -webkit-text-stroke: 0.1px white;
-        background-color: rgba(0, 0, 0, 0.25);
+        background-color: rgba(0, 0, 0, 0.50);
     }
     /* Fim seção do tempo*/
     /* Comeco seção do footer/contato*/
