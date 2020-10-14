@@ -3,7 +3,7 @@
 This is the (PI) - **Integrator Project** carried out during the Front End Coding Facebook course - Class 5.
 
 
-The PI consists of developing the Front End of a website using the knowledge learned from ** HTML **, ** CSS ** and ** JavaScript **.
+The PI consists of developing the Front End of a website using the knowledge learned from **HTML**, **CSS** and **JavaScript**.
 
 
 Group 6 members are:
