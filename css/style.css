@@ -234,9 +234,9 @@
     }
     
     .testimonial-area {
-        padding: 40px;
-        min-height: 30vh;
-        max-height: 30vh;
+        padding: 20px;
+        /* min-height: 30vh;
+        max-height: 30vh; */
         font-family: 'RobotoLight';
     }
     
@@ -291,13 +291,12 @@
             padding-right: 1.1rem;
         }
     }
-    
-    .comentarios {
+    /* .comentarios {
         align-self: center;
         min-height: auto;
         max-width: 100%;
         margin: 10px;
-    }
+    } */
     
     .modal-body {
         min-width: 100%;
