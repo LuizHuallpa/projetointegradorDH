@@ -20,4 +20,4 @@ Group 6 members are:
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://tradicionalbardacoxinha.netlify.app/)
+[![Deploy to Netlify target="_blank"](https://www.netlify.com/img/deploy/button.svg)](https://tradicionalbardacoxinha.netlify.app/)
